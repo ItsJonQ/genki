@@ -14,13 +14,13 @@ npm install genki --save-dev
 ```js
 var expect = require('chai').expect;
 var genki = require('genki');
-var world = genki.start();
+var world = genki.start({
+  file: 'my-styles.css',
+});
 
 describe('simple test', function() {
   it('should look right', function() {
     world.$('body').html(`
-      <style>.box { height: 10px; }</style>
-
       <div class="box">Hello</div>
     `);
     var $box = world.$('.box');
@@ -45,8 +45,16 @@ var genki = require('../index');
 
 Generate your virtual DOM (powered by [jsdom](https://github.com/tmpvar/jsdom)) by executing `genki.start()`. In the example below, genki's virtual DOM is assigned to the variable `world`.
 
+Genki can help load and render CSS for you inside the Virtual DOM, thanks to [seed-barista](https://github.com/helpscout/seed-barista).
+
+`genki.start()` accepts an `options` argument (`object`).
+
+Bonus: You can load `.scss` files too!
+
 ```js
-var world = genki.start();
+var world = genki.start({
+  file: 'my-styles.css',
+});
 ```
 
 ### Step 3: Add your elements
