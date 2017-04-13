@@ -1,4 +1,4 @@
-# genki [元気] [![Build Status](https://travis-ci.org/ItsJonQ/genki.svg?branch=master)](https://travis-ci.org/ItsJonQ/genki) [![npm version](https://badge.fury.io/js/genki.svg)](https://badge.fury.io/js/genki)
+# genki [![Build Status](https://travis-ci.org/ItsJonQ/genki.svg?branch=master)](https://travis-ci.org/ItsJonQ/genki) [![npm version](https://badge.fury.io/js/genki.svg)](https://badge.fury.io/js/genki)
 
 Easy CSS unit testing in Node. Genki desu!
 
@@ -26,3 +26,5 @@ describe('simple test', function() {
   });
 });
 ```
+
+Stay 元気 ❤️!
