@@ -3,7 +3,7 @@
 var expect = require('chai').expect;
 var genki = require('../index');
 
-describe('genki', function() {
+describe('genki.start', function() {
   var world = genki.start();
 
   it('should inject DOM elements with jQuery', function() {

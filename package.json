@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "jquery": "3.2.1",
-    "jsdom": "9.12.0"
+    "jsdom": "9.12.0",
+    "lodash.assign": "^4.2.0",
+    "seed-barista": "^0.3.1"
   }
 }
