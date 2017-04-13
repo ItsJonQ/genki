@@ -1,6 +1,6 @@
 # genki [![Build Status](https://travis-ci.org/ItsJonQ/genki.svg?branch=master)](https://travis-ci.org/ItsJonQ/genki) [![npm version](https://badge.fury.io/js/genki.svg)](https://badge.fury.io/js/genki)
 
-Easy CSS unit testing in Node. Genki desu!
+Easy CSS unit testing in Node. Keep that CSS genki desu!
 
 ## Getting Started
 
