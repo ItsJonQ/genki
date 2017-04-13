@@ -1,4 +1,4 @@
-# genki
+# genki [元気]
 
 ## Getting Started
 
