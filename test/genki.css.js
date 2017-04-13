@@ -28,4 +28,14 @@ describe('genki.css', function() {
 
     expect($box.css('position')).to.equal('fixed');
   });
+
+  it('should be able to access Barista data', function() {
+    var world = genki.start({
+      file: 'test/css/batsu.scss',
+    });
+
+    expect(world.styles).to.exist;
+    expect(world.styles.data).to.exist;
+    expect(world.styles.data.nodes).to.exist;
+  });
 });
