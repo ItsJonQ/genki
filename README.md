@@ -1,7 +1,7 @@
-# genki [![Build Status](https://travis-ci.org/ItsJonQ/genki.svg?branch=master)](https://travis-ci.org/ItsJonQ/genki) [![npm version](https://badge.fury.io/js/genki.svg)](https://badge.fury.io/js/genki)
+# Genki [![Build Status](https://travis-ci.org/ItsJonQ/genki.svg?branch=master)](https://travis-ci.org/ItsJonQ/genki) [![npm version](https://badge.fury.io/js/genki.svg)](https://badge.fury.io/js/genki)
 
 Easy CSS unit testing in Node.
-Making sure that CSS nice and genki!
+Making sure that CSS nice and Genki!
 
 ## Install
 
@@ -34,7 +34,7 @@ Let's break it down!
 
 ### Step 1: Bring it in 💪
 
-Require genki into your `.js` file:
+Require Genki into your `.js` file:
 
 ```js
 var expect = require('chai').expect; // Not necessary, but chai is nice
@@ -43,7 +43,7 @@ var genki = require('genki');
 
 ### Step 2: Create your world 🌈
 
-Generate your virtual DOM (powered by [jsdom](https://github.com/tmpvar/jsdom)) by executing `genki.start()`. In the example below, genki's virtual DOM is assigned to the variable `world`.
+Generate your virtual DOM (powered by [jsdom](https://github.com/tmpvar/jsdom)) by executing `genki.start()`. In the example below, Genki's virtual DOM is assigned to the variable `world`.
 
 Genki can help load and render CSS for you inside the Virtual DOM, thanks to [seed-barista](https://github.com/helpscout/seed-barista).
 
@@ -77,7 +77,7 @@ Using jQuery's [`.css()`](http://api.jquery.com/css/) method, you can check your
 expect($box.css('height')).to.equal('10px');
 ```
 
-Rinse and repeat until your CSS is super genki!
+Rinse and repeat until your CSS is super Genki!
 
 
 Stay 元気 everyone ❤️!
