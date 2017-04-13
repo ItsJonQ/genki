@@ -18,7 +18,9 @@ var world = genki.start();
 describe('simple test', function() {
   it('should look right', function() {
     world.$('body').html(`
-      <div class="box" style="height: 10px;">Hello</div>
+      <style>.box { height: 10px; }</style>
+
+      <div class="box">Hello</div>
     `);
     var $box = world.$('.box');
 
