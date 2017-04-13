@@ -1,7 +1,9 @@
 # Genki [![Build Status](https://travis-ci.org/ItsJonQ/genki.svg?branch=master)](https://travis-ci.org/ItsJonQ/genki) [![npm version](https://badge.fury.io/js/genki.svg)](https://badge.fury.io/js/genki)
 
-Easy CSS unit testing in Node.
-Making sure that CSS nice and Genki!
+Easy CSS unit testing in Node.<br>
+Making sure that CSS nice and Genki.
+
+No browser or PhantomJS required!
 
 ## Install
 
