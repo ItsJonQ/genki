@@ -1,0 +1,15 @@
+{
+  "name": "genki",
+  "version": "0.0.1",
+  "description": "CSS Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsJonQ/genki.git"
+  },
+  "author": "ItsJonQ <itsjonq@gmail.com> (http://jonquach.com)",
+  "license": "MIT"
+}
