@@ -1,3 +1,4 @@
+/* globals describe: true, it: true */
 'use strict';
 
 var expect = require('chai').expect;
@@ -35,7 +36,7 @@ describe('genki.css', function() {
     });
 
     expect(world.styles).to.exist;
-    expect(world.styles.data).to.exist;
-    expect(world.styles.data.nodes).to.exist;
+    expect(world.styles[0].data).to.exist;
+    expect(world.styles[0].data.nodes).to.exist;
   });
 });
