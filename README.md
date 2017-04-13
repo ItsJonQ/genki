@@ -3,13 +3,13 @@
 Easy CSS unit testing in Node.
 Making sure that CSS nice and genki!
 
-## Getting Started
+## Install
 
 ```
 npm install genki --save-dev
 ```
 
-## Example
+## Getting Started
 
 ```js
 var expect = require('chai').expect;
