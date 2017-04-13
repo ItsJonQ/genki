@@ -12,7 +12,7 @@ npm install genki --save-dev
 
 ```js
 var expect = require('chai').expect;
-var genki = require('../index');
+var genki = require('genki');
 var world = genki.start();
 
 describe('simple test', function() {
