@@ -30,9 +30,9 @@ describe('simple test', function() {
 });
 ```
 
-Let's break it down 💪
+Let's break it down!
 
-### Step 1: Bring it in
+### Step 1: Bring it in 💪
 
 Require genki into your `.js` file:
 
@@ -41,7 +41,7 @@ var expect = require('chai').expect; // Not necessary, but chai is nice
 var genki = require('../index');
 ```
 
-### Step 2: Create your world
+### Step 2: Create your world 🌈
 
 Generate your virtual DOM (powered by [jsdom](https://github.com/tmpvar/jsdom)) by executing `genki.start()`. In the example below, genki's virtual DOM is assigned to the variable `world`.
 
@@ -57,7 +57,7 @@ var world = genki.start({
 });
 ```
 
-### Step 3: Add your elements
+### Step 3: Add your elements ✨
 
 Genki's virtual DOM comes equipt with [jQuery](https://github.com/jquery/jquery). Use the `.$()` to add stuff to your world:
 
