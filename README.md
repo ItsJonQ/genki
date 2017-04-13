@@ -65,8 +65,6 @@ Genki's virtual DOM comes equipt with [jQuery](https://github.com/jquery/jquery)
 
 ```js
 world.$('body').html(`
-  <style>.box { height: 10px; }</style>
-
   <div class="box">Hello</div>
 `);
 ```
