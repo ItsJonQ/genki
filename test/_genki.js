@@ -1,3 +1,4 @@
+/* globals describe: true, it: true */
 'use strict';
 
 var expect = require('chai').expect;
