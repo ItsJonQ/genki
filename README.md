@@ -38,7 +38,7 @@ Require genki into your `.js` file:
 
 ```js
 var expect = require('chai').expect; // Not necessary, but chai is nice
-var genki = require('../index');
+var genki = require('genki');
 ```
 
 ### Step 2: Create your world 🌈
