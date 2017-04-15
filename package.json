@@ -4,7 +4,7 @@
   "description": "CSS Unit Testing",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint index.js test/",
+    "lint": "jshint index.js lib/ test/",
     "test": "npm run lint && mocha --recursive"
   },
   "repository": {
