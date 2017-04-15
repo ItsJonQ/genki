@@ -1,4 +1,5 @@
 /* globals describe: true, it: true */
+/* jshint expr: true */
 'use strict';
 
 var expect = require('chai').expect;
@@ -30,8 +31,18 @@ describe('genki.css', function() {
     expect($box.css('position')).to.equal('fixed');
   });
 
-  it('should be able to access Barista data', function() {
+  it('should not have CSSOM by default', function() {
     var world = genki.start({
+      file: 'test/css/batsu.scss',
+    });
+
+    expect(world.styles[0].data).to.be.false;
+    expect(world.styles[0].$('.tanaka')).to.be.false;
+  });
+
+  it('should be able to access Barista data if enableCSSOM: true', function() {
+    var world = genki.start({
+      enableCSSOM: true,
       file: 'test/css/batsu.scss',
     });
 

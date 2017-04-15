@@ -1138,9 +1138,9 @@ sax@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
 
-seed-barista@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/seed-barista/-/seed-barista-0.3.1.tgz#4a319b68a4cc26348fd18ab6a91e2dd8efe49cdd"
+seed-barista@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/seed-barista/-/seed-barista-0.3.2.tgz#4315971154f0a879b6536909abfea6f38aaaa30a"
   dependencies:
     find-root "1.0.0"
     lodash.assign "4.2.0"
