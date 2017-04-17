@@ -20,9 +20,10 @@ describe('genki.addStyle', function() {
     world.addStyle({
       content: `.hosei { background: blue }`,
     });
+    var $el = world.$('.hosei');
 
     expect(world.styles.length).to.equal(1);
-    expect(world.$('style').length).to.equal(1);
+    // expect(world.$('style').length).to.equal(1);
     expect($el.css('background')).to.equal('blue');
   });
 
@@ -30,9 +31,10 @@ describe('genki.addStyle', function() {
     world.addStyle({
       content: `.hosei { padding: 10px }`,
     });
+    var $el = world.$('.hosei');
 
     expect(world.styles.length).to.equal(2);
-    expect(world.$('style').length).to.equal(2);
+    // expect(world.$('style').length).to.equal(2);
     expect($el.css('padding')).to.equal('10px');
   });
 });

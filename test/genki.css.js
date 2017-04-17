@@ -14,6 +14,9 @@ describe('genki.css', function() {
     world.$('body').html(`
       <div class="double-cheesecakey">Hello</div>
     `);
+    world.addStyle({
+      file: 'test/css/bus.css',
+    });
     var $box = world.$('.double-cheesecakey');
 
     expect($box.css('padding')).to.equal('10px');
@@ -26,6 +29,9 @@ describe('genki.css', function() {
     world.$('body').html(`
       <div class="tanaka thai-kick-u">OMG</div>
     `);
+    world.addStyle({
+      file: 'test/css/batsu.scss',
+    });
     var $box = world.$('.tanaka');
 
     expect($box.css('position')).to.equal('fixed');
