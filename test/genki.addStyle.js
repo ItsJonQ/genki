@@ -10,7 +10,6 @@ describe('genki.addStyle', function() {
   world.$('body').html(`
     <div class="hosei">It's a science</div>
   `);
-  var $el = world.$('.hosei');
 
   it('should start with no styles', function() {
     expect(world.styles.length).to.equal(0);
