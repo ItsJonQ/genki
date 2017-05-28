@@ -22,6 +22,6 @@
     "jquery": "3.2.1",
     "jsdom": "11.0.0",
     "lodash.assign": "4.2.0",
-    "seed-barista": "0.8.2"
+    "seed-barista": "1.0.0"
   }
 }
