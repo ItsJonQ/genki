@@ -1,11 +1,11 @@
 {
   "name": "genki",
-  "version": "0.0.5",
+  "version": "0.1.1",
   "description": "CSS Unit Testing",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js lib/ test/",
-    "test": "npm run lint && mocha --recursive"
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -14,16 +14,15 @@
   "author": "ItsJonQ <itsjonq@gmail.com> (http://jonquach.com)",
   "license": "MIT",
   "devDependencies": {
-    "chai": "3.5.0",
+    "chai": "4.0.0",
     "jshint": "2.9.4",
-    "mocha": "3.2.0"
+    "mocha": "3.4.2"
   },
   "dependencies": {
     "cheerio": "0.22.0",
     "jquery": "3.2.1",
-    "jsdom": "9.12.0",
     "juice": "4.0.2",
     "lodash.assign": "4.2.0",
-    "seed-barista": "0.3.2"
+    "seed-barista": "1.0.0"
   }
 }
